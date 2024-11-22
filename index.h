@@ -330,7 +330,7 @@ static const char PROGMEM INDEX_HTML[] = R"rawliteral(
                             <div class="input-group" style="display:none;">
                                 <label for="modelPath">Model path:</label>
                                 <input type="text" id="modelPath"
-                                    value="https://teachablemachine.withgoogle.com/models/9vNwq0Zs9">  
+                                    value="https://teachablemachine.withgoogle.com/models/9-IcMGGxK">  
                             </div>
                             <div class="input-group" style="display:none;">
                                 <label for="btnModel"></label>
