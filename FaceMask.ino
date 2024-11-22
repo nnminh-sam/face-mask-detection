@@ -6,9 +6,9 @@ const char* appassword = "12345678";
 
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
-#include "esp_camera.h"         
-#include "soc/soc.h"           
-#include "soc/rtc_cntl_reg.h" 
+#include "esp_camera.h"
+#include "soc/soc.h"  
+#include "soc/rtc_cntl_reg.h"
 #include "UniversalTelegramBot.h"
 #include "ArduinoJson.h"
 #include <Arduino.h>
@@ -21,7 +21,7 @@ String Command = "", cmd = "", P1="", P2="", P3="", P4="",P5="", P6="", P7="", P
 byte ReceiveState=0,cmdState=1,strState=1,questionState=0,equalstate=0,semicolonState=0;
 
 // * Telegram bot configuration
-String BOTtoken = "7860451504:AAGs3BENbiF61MqDpnY5YRDbvnOtlwwXOeg";
+String BOTtoken = "7877697974:AAHV8tgN1fWcemVxncy0Riv3CLhyH-jZXCI";
 String CHAT_ID = "5063928736";
 
 // * Flash control
